@@ -1,0 +1,27 @@
+.options {
+    padding: 80px 0 225px 0;
+    height: 580px;
+    background: url(../image/bg_3.jpg) center (center/cover) no-repeat;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 130px;
+    }
+    &__item {
+        width: 490px;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
+        color: #ffffff;
+        h3 {
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        &_right {
+            text-align: right;
+        }
+        &_left {
+            text-align: left;
+        }
+    }
+}

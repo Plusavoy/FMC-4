@@ -1,0 +1,49 @@
+.prForYou {
+    padding: 80px 0;
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    &__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #ffffff;
+        text-align: center;
+        margin: 0;
+        &_1 {
+            width: 50%;
+            height: 355px;
+            background: url(../image/time.jpg) center (center/cover) no-repeat;
+        }
+        &_2 {
+            width: 50%;
+            height: 355px;
+            background: url(../image/intelect.jpg) center (center/cover) no-repeat;
+        }
+        &_3 {
+            width: 50%;
+            height: 355px;
+            background: url(../image/world.jpg) center (center/cover) no-repeat;
+        }
+        &_4 {
+            width: 50%;
+            height: 355px;
+            background: url(../image/programm.jpg) center (center/cover) no-repeat;
+        }
+        &_5 {
+            width: 50%;
+            height: 355px;
+            background: url(../image/live.jpg) center (center/cover) no-repeat;
+        }
+        &_6 {
+            width: 50%;
+            height: 355px;
+            background: url(../image/start.jpg) center (center/cover) no-repeat;
+        }
+    }
+}

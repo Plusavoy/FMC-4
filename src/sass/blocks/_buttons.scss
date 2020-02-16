@@ -1,0 +1,23 @@
+.button {
+    width: 240px;
+    height: 60px;
+    background-color: #00c2f0;
+    border: none;
+    border-radius: 5px;
+    margin-top: 34px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    &:hover {
+        color: #00c2f0;
+        background: #a21c2c;
+        box-shadow: 3px 3px 20px #00c2f0;
+    }
+    &_simple {
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+}
